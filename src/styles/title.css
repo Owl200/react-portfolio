@@ -1,0 +1,16 @@
+.title__name, .title__dev {
+    background-color: black;
+    width: 30vw;
+    padding: 0.5rem;
+    transform: skewX(-15deg);
+}
+
+.title__name > h1 {
+    font-size: 2rem;
+    transform: skewX(15deg);
+}
+
+.title__dev > h2 {
+    font-size: 1.5rem;
+    transform: skewX(15deg);
+}
