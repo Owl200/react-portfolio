@@ -19,7 +19,7 @@ const Skills = () => {
   return (
     <motion.div  className='skills'>
         <motion.div animate={{x: 0, opacity: 1, zIndex: 10}} transition={{delay: 0.00}} initial={{x: 50, y: 0, opacity: 0}} className='skills__title'>
-          <p>SKILLS</p>
+          <p>Skills:</p>
           
         </motion.div>
         <motion.div whileHover={{scale: 1.5, rotate: 0, zIndex: 100}} animate={{x: 0, opacity: 1, zIndex: 1}} transition={{delay: 0.05}} initial={{x: 50, y: 0, opacity: 0, rotate: 45}} className='skills__div'>
@@ -54,7 +54,7 @@ const Skills = () => {
           <p>Motion</p>
           <img src={motionlogo} alt='motion' />
         </motion.div>
-        <motion.div whileHover={{scale: 1.5, rotate: 0, zIndex: 100}} animate={{x: 0, opacity: 1, zIndex: 9}} transition={{delay: 0.45}} initial={{x: 50, y: -14, opacity: 0, rotate: -70}} className='skills__div'>
+        <motion.div whileHover={{scale: 1.5, rotate: 0, zIndex: 100}} animate={{x: 0, opacity: 1, zIndex: 9}} transition={{delay: 0.45}} initial={{x: 50, y: -14, opacity: 0, rotate: -30}} className='skills__div'>
           <p>Git</p>
           <img src={git} alt='git' />
         </motion.div>

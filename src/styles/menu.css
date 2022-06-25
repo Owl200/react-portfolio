@@ -1,0 +1,45 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-button__div {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 10vh;
+    width: 50vw;
+}
+
+.menu-button__div-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.menu-button__div:nth-child(1) .menu-button__div-img {
+    background: url(../images/button-1.png);
+    background-repeat: no-repeat;
+}
+
+.menu-button__div:nth-child(2) .menu-button__div-img {
+    background: url(../images/button-2.png);
+    background-repeat: no-repeat;
+}
+
+.menu-button__div:nth-child(3) .menu-button__div-img {
+    background: url(../images/button-3.png);
+    background-repeat: no-repeat;
+}
+
+.menu-button__div p {
+    color: white;
+    font-weight: 700;
+}
