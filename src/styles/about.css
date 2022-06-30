@@ -1,0 +1,21 @@
+.about__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.about__div > img {
+    width: 20vw;
+}
+
+
+.about__div > p {
+    width: 30vw;
+    font-size: 1rem;
+    white-space: break-spaces;
+    text-align: justify;
+    padding: 1rem;
+}

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import Skills from './components/Skills';
 import Title from './components/Title';
 import Menu from './components/Menu'
-
+import About from './components/About';
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
           <li></li>
         </ul>
       </div >
+      <About/>
       <nav>
         <Menu/>
       </nav>
