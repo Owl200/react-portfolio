@@ -18,4 +18,15 @@
     white-space: break-spaces;
     text-align: justify;
     padding: 1rem;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .about__div {
+        flex-direction: column;
+    }
+
+    .about__div > p {
+        width: 90vw;
+    }
 }
