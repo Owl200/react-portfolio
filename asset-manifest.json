@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.1be8bc07.css",
-    "main.js": "/react-portfolio/static/js/main.de5bab08.js",
+    "main.css": "/react-portfolio/static/css/main.1d0bdbe8.css",
+    "main.js": "/react-portfolio/static/js/main.93e2bf37.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/owl-logo-512.webp": "/react-portfolio/static/media/owl-logo-512.a3c4b9c11de34b3afa33.webp",
     "index.html": "/react-portfolio/index.html",
-    "main.1be8bc07.css.map": "/react-portfolio/static/css/main.1be8bc07.css.map",
-    "main.de5bab08.js.map": "/react-portfolio/static/js/main.de5bab08.js.map",
+    "main.1d0bdbe8.css.map": "/react-portfolio/static/css/main.1d0bdbe8.css.map",
+    "main.93e2bf37.js.map": "/react-portfolio/static/js/main.93e2bf37.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1be8bc07.css",
-    "static/js/main.de5bab08.js"
+    "static/css/main.1d0bdbe8.css",
+    "static/js/main.93e2bf37.js"
   ]
 }
