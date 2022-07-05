@@ -9,6 +9,7 @@
     height: 7vh;
     max-width: 1200px;
     width: 50vw;
+    cursor: pointer;
 }
 
 .menu-button__div:hover {
@@ -24,6 +25,12 @@
 
 
 .menu-button__div-img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.menu-button__div-img > svg{
     width: 100%;
     height: 100%;
     object-fit: fill;

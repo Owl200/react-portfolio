@@ -1,11 +1,16 @@
 import './App.css';
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 import Skills from './components/Skills';
 import Title from './components/Title';
 import Menu from './components/Menu'
 import About from './components/About';
+import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 function App() {
+  const [section, setSection] = useState('about');
+
   return (
     <div className="App">
       <motion.header className="App-header" initial={{y: -150, opacity: 0}} animate={{y: 0, opacity: 1}}>
@@ -26,9 +31,11 @@ function App() {
           <li></li>
         </ul>
       </div >
-      <About/>
+      {section === 'about' && <About/>}
+      {section === 'projects' && <Projects/>}
+      {section === 'contact' && <Contact/>}
       <nav>
-        <Menu/>
+        <Menu section={setSection} />
       </nav>
 
     </div>

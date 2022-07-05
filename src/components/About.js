@@ -11,8 +11,11 @@ const About = () => {
             I love creating systems with which people get a good UX.
             <br/>
             <br/>
-            My priorities at the moment are to excel at the current programing languages I know as well as to dive deep into new languages and technologies in order to always be updated on the latest trends and be able to look at problems from more than one point of view so that I can always offer the best option to clients.
-            I'm looking for a place to put my skills to the test and to be challenged daily with new challenges.
+            My priorities at the moment are to excel at the current programing languages I know as well 
+            as to dive deep into new languages and technologies in order to always be updated on the latest trends 
+            and be able to look at problems from more than one point of view so that I can always offer the best 
+            option to clients.
+            I'm looking for a place to put my skills to the test and to be challenged daily with new projects.
         </p>
     </div>
   )
