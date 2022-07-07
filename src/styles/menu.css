@@ -30,12 +30,6 @@
     object-fit: fill;
 }
 
-.menu-button__div-img > svg{
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-}
-
 .menu-button__div p {
     position: absolute;
     top: 50%;
