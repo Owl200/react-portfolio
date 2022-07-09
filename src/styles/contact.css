@@ -1,0 +1,32 @@
+.contact-title {
+    margin-top: 1rem;
+    color: white;
+}
+
+.contact-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    gap: 1rem;
+}
+
+.img-container {
+    max-width: 30vw;
+}
+
+.contact-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 500px) {
+    .contact-div {
+        flex-direction: column;
+    }
+    .img-container {
+        max-width: 10vh;
+    }
+}
