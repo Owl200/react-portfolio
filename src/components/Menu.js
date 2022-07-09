@@ -5,6 +5,33 @@ import button2 from '../images/button-2.svg'
 import button3 from '../images/button-3.svg'
 import '../styles/menu.css'
 
+const variants = {
+    open: {
+      transition: { staggerChildren: 0.07, delayChildren: 0.2 }
+    },
+    closed: {
+      transition: { staggerChildren: 0.05, staggerDirection: -1 }
+    }
+  };
+  
+  //variants for the li on the Navlinks
+  const liVariants = {
+    open: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        y: { stiffness: 1000, velocity: -100 }
+      }
+    },
+    closed: {
+      y: 1000,
+      opacity: 0,
+      transition: {
+        y: { stiffness: 1000 }
+      }
+    }
+  };
+
 
 const Menu = ({section}) => {
     const [windowSize, setWindowSize] = useState(window.innerWidth)
@@ -18,6 +45,10 @@ const Menu = ({section}) => {
     const handleClick = (name) => {
         section(name)
     }
+
+    const changeOpen = () => {
+        toggleOpen()
+      }
 
 
   return (
@@ -47,11 +78,28 @@ const Menu = ({section}) => {
         </div> 
         </>
         :
-        <div className='menu-button__div' onClick={toggleOpen}>
-            <motion.div whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='menu-button__div-img' >
+        <div className='menu-button__div' variants={variants} initial={false} animate={isOpen ? "open" : "closed"}>
+            <motion.div whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='menu-button__div-img' variants={liVariants} >
+                <img src={button1} alt='projects button'/>
+                <p>About</p>
+            </motion.div>
+
+            <motion.div whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='menu-button__div-img' variants={liVariants} >
+                <img src={button2} alt='projects button'/>
+                <p>Projects</p>
+            </motion.div>
+
+            <motion.div whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='menu-button__div-img' variants={liVariants} >
+                <img src={button3} alt='contact button'/>
+                <p>Contact Me</p>
+            </motion.div>
+            
+            <motion.div whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} onClick={toggleOpen} className='menu-button__div-img' >
                 <img src={button1} alt='projects button'/>
                 {isOpen ? <p>Menu   ▼</p> : <p>Menu   ▲</p>}
             </motion.div>
+
+
         </div>}
 
     </div>
