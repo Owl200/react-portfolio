@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.e42e9ddf.css",
-    "main.js": "/react-portfolio/static/js/main.2c6c1bcc.js",
+    "main.css": "/react-portfolio/static/css/main.ebf1a7fd.css",
+    "main.js": "/react-portfolio/static/js/main.f82b4beb.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/owl-logo-512.webp": "/react-portfolio/static/media/owl-logo-512.a3c4b9c11de34b3afa33.webp",
     "index.html": "/react-portfolio/index.html",
     "static/media/button-3.svg": "/react-portfolio/static/media/button-3.228b877d63e0aba5bf661c0dad65bcc2.svg",
     "static/media/button-2.svg": "/react-portfolio/static/media/button-2.2c6a23ea7ea25c070cc651f41f43def5.svg",
     "static/media/button-1.svg": "/react-portfolio/static/media/button-1.1d0cce6f31d30f0f8abeae8dd06373ea.svg",
-    "main.e42e9ddf.css.map": "/react-portfolio/static/css/main.e42e9ddf.css.map",
-    "main.2c6c1bcc.js.map": "/react-portfolio/static/js/main.2c6c1bcc.js.map",
+    "main.ebf1a7fd.css.map": "/react-portfolio/static/css/main.ebf1a7fd.css.map",
+    "main.f82b4beb.js.map": "/react-portfolio/static/js/main.f82b4beb.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e42e9ddf.css",
-    "static/js/main.2c6c1bcc.js"
+    "static/css/main.ebf1a7fd.css",
+    "static/js/main.f82b4beb.js"
   ]
 }
