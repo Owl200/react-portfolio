@@ -59,14 +59,14 @@ const Menu = ({section}) => {
         <div className='menu-button__div' onClick={_ => handleClick('about')} >
             <motion.div whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='menu-button__div-img' >
                 <img src={button1} alt='projects button'/>
-                <p>About</p>
+                <p>About Me</p>
             </motion.div>
         </div>
 
         <div className='menu-button__div' onClick={_ => handleClick('project')}>
             <motion.div whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='menu-button__div-img' >
                 <img src={button2} alt='projects button'/>
-                <p>Projects</p>
+                <p>My Projects</p>
             </motion.div>
         </div>
         
@@ -78,15 +78,17 @@ const Menu = ({section}) => {
         </div> 
         </>
         :
-        <div className='menu-button__div' variants={variants} initial={false} animate={isOpen ? "open" : "closed"}>
+        <div className='menu-button__div' initial={false} animate={isOpen ? "open" : "closed"}>
+            <motion.div variants={variants}>
+
             <motion.div whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='menu-button__div-img' variants={liVariants} >
                 <img src={button1} alt='projects button'/>
-                <p>About</p>
+                <p>About Me</p>
             </motion.div>
 
             <motion.div whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='menu-button__div-img' variants={liVariants} >
                 <img src={button2} alt='projects button'/>
-                <p>Projects</p>
+                <p>My Projects</p>
             </motion.div>
 
             <motion.div whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='menu-button__div-img' variants={liVariants} >
@@ -99,7 +101,7 @@ const Menu = ({section}) => {
                 {isOpen ? <p>Menu   ▼</p> : <p>Menu   ▲</p>}
             </motion.div>
 
-
+            </motion.div>
         </div>}
 
     </div>
