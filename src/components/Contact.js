@@ -36,13 +36,13 @@ const Contact = () => {
         <motion.h2 initial={{opacity: 0, y: -100}} animate={{opacity: 1, y: 0}} className='contact-title' >You can find me in here:</motion.h2>
         <motion.div initial='hidden' animate='show' variants={container} className='contact-div'>
             <motion.div variants={icon} whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='img-container'>
-                <img className='contact-img' src={github} alt="github link" />
+                <a href='https://github.com/Owl200' target='_blank' rel='noreferrer'><img className='contact-img' src={github} alt="github link" /></a>
             </motion.div>
             <motion.div variants={icon} whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='img-container'>
-                <img className='contact-img' src={linkedin} alt="linkedin link" />
+            <a href='https://www.linkedin.com/in/alan-martinez-dev92' target='_blank' rel='noreferrer'><img className='contact-img' src={linkedin} alt="linkedin link" /></a>
             </motion.div>
             <motion.div variants={icon} whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='img-container'>
-                <img className='contact-img' src={twitter} alt="twitter link" />
+            <a href='https://twitter.com/alan_mtz_dev' target='_blank' rel='noreferrer'><img className='contact-img' src={twitter} alt="twitter link" /></a>
             </motion.div>
         </motion.div>
       </>
