@@ -30,3 +30,13 @@
         width: 90vw;
     }
 }
+
+@media (max-width: 900px) {
+    .about__div {
+        flex-direction: column;
+    }
+
+    .about__div > p {
+        width: 90vw;
+    }
+}
