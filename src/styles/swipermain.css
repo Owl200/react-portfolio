@@ -14,13 +14,13 @@ img {
 
 }
 
-img {
+.swiper img {
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
 
-p {
+.swiper p {
     color: white;
     font-weight: 600;
     position: absolute;
