@@ -63,7 +63,7 @@ const Menu = ({section}) => {
             </motion.div>
         </div>
 
-        <div className='menu-button__div' onClick={_ => handleClick('project')}>
+        <div className='menu-button__div' onClick={_ => handleClick('projects')}>
             <motion.div whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='menu-button__div-img' >
                 <img src={button2} alt='projects button'/>
                 <p>My Projects</p>

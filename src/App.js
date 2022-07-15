@@ -7,6 +7,7 @@ import Menu from './components/Menu'
 import About from './components/About';
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import SwiperMain from './components/SwiperMain';
 
 function App() {
   const [section, setSection] = useState('about');
@@ -32,7 +33,7 @@ function App() {
         </ul>
       </div >
       {section === 'about' && <About/>}
-      {section === 'projects' && <Projects/>}
+      {section === 'projects' && <SwiperMain/>}
       {section === 'contact' && <Contact/>}
       <nav>
         <Menu section={setSection} />

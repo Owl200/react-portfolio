@@ -1,11 +1,13 @@
 import React from 'react'
-import Swiper, { Controller, Parallax} from 'swiper'
+// import Swiper, { Controller, Parallax} from 'swiper'
 import ff from '../images/14th-phoenix-legatus.webp'
 import nplus from '../images/n-plus-plus.webp'
 import poke from '../images/pokelore.webp'
 import vivid from '../images/vivid-bar2.webp'
 
 const Projects = () => {
+
+  
   return (
     <div>
 
