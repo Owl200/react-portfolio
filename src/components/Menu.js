@@ -48,7 +48,6 @@ const Menu = ({section}) => {
 
     const handleClick = (name) => {
         section(name)
-        console.log(about.current.style)
         about.current.style.filter = name === 'about' ? 'invert(1)' : 'invert(0)' 
         projects.current.style.filter = name === 'projects' ? 'invert(1)' : 'invert(0)'
         contact.current.style.filter = name === 'contact' ? 'invert(1)' : 'invert(0)'
