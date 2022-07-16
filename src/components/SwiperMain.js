@@ -1,7 +1,9 @@
 import React from 'react'
 import { Swiper, SwiperSlide} from 'swiper/react'
-// import SwiperCore from 'swiper'
+import SwiperCore, {Navigation, Pagination} from 'swiper'
 import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 import '../styles/swipermain.css'
 import ff from '../images/14th-phoenix-legatus.webp'
 import nplus from '../images/n-plus-plus.webp'
@@ -24,7 +26,14 @@ const SwiperMain = () => {
 
   return (
     <>
-      <Swiper id="main">
+      <Swiper id="main" 
+      modules={[Navigation, Pagination]} 
+      navigation 
+      pagination={{clickable: true}}
+      slidesPerView={1}
+      spaceBetween={0}
+
+      >
         {slides}
       </Swiper>
     </>
