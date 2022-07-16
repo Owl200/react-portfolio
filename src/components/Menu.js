@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { motion, useCycle } from 'framer-motion'
 import button1 from '../images/button-1.svg'
 import button2 from '../images/button-2.svg'
@@ -37,6 +37,10 @@ const Menu = ({section}) => {
     const [windowSize, setWindowSize] = useState(window.innerWidth)
     const [isOpen, toggleOpen] = useCycle(false, true)
 
+    const about = useRef()
+    const projects = useRef()
+    const contact = useRef()
+
     useEffect( _ => {
         window.addEventListener('resize', _ => setWindowSize(window.innerWidth))
       }, [windowSize])
@@ -44,6 +48,10 @@ const Menu = ({section}) => {
 
     const handleClick = (name) => {
         section(name)
+        console.log(about.current.style)
+        about.current.style.filter = name === 'about' ? 'invert(1)' : 'invert(0)' 
+        projects.current.style.filter = name === 'projects' ? 'invert(1)' : 'invert(0)'
+        contact.current.style.filter = name === 'contact' ? 'invert(1)' : 'invert(0)'
     }
 
     const changeOpen = () => {
@@ -56,21 +64,21 @@ const Menu = ({section}) => {
 
         {windowSize > 600 ?
         <>
-        <div className='menu-button__div' onClick={_ => handleClick('about')} >
+        <div className='menu-button__div' ref={about} onClick={_ => handleClick('about')} >
             <motion.div whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='menu-button__div-img' >
                 <img src={button1} alt='projects button'/>
                 <p>About Me</p>
             </motion.div>
         </div>
 
-        <div className='menu-button__div' onClick={_ => handleClick('projects')}>
+        <div className='menu-button__div' ref={projects} onClick={_ => handleClick('projects')}>
             <motion.div whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='menu-button__div-img' >
                 <img src={button2} alt='projects button'/>
                 <p>My Projects</p>
             </motion.div>
         </div>
         
-        <div className='menu-button__div' onClick={_ => handleClick('contact')}>
+        <div className='menu-button__div' ref={contact} onClick={_ => handleClick('contact')}>
             <motion.div whileHover={{scale: 1.5}} whileTap={{scale: 1.5}} className='menu-button__div-img' >
                 <img src={button3} alt='contact button'/>
                 <p>Contact Me</p>
