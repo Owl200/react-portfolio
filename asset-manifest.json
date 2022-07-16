@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.79414263.css",
-    "main.js": "/react-portfolio/static/js/main.66126287.js",
+    "main.js": "/react-portfolio/static/js/main.48836c98.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/14th-phoenix-legatus.webp": "/react-portfolio/static/media/14th-phoenix-legatus.fd3998f7f85cabfab18c.webp",
     "static/media/pokelore.webp": "/react-portfolio/static/media/pokelore.f93d980a4831e2572752.webp",
@@ -13,11 +13,11 @@
     "static/media/button-2.svg": "/react-portfolio/static/media/button-2.2c6a23ea7ea25c070cc651f41f43def5.svg",
     "static/media/button-1.svg": "/react-portfolio/static/media/button-1.1d0cce6f31d30f0f8abeae8dd06373ea.svg",
     "main.79414263.css.map": "/react-portfolio/static/css/main.79414263.css.map",
-    "main.66126287.js.map": "/react-portfolio/static/js/main.66126287.js.map",
+    "main.48836c98.js.map": "/react-portfolio/static/js/main.48836c98.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79414263.css",
-    "static/js/main.66126287.js"
+    "static/js/main.48836c98.js"
   ]
 }
