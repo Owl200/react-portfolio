@@ -1,5 +1,5 @@
 .swiper {
-    width: 90%;
+    aspect-ratio: 2/1;
     height: 40vh;
     margin: 3rem auto;
 }
@@ -23,4 +23,40 @@
     transform: translate(-50%, -50%);
     bottom: 2%;
     left: 50%;
+}
+
+.code-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+    color: white;
+    font-weight: 600;
+    width: 5rem;
+    height: 2rem;
+    background-color: darkcyan;
+    border: 3px solid black;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.website-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+    color: white;
+    font-weight: 600;
+    width: 5rem;
+    height: 2rem;
+    background-color: darkcyan;
+    border: 3px solid black;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-decoration: none;
 }
