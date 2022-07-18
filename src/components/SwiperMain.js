@@ -46,7 +46,7 @@ const SwiperMain = () => {
       pagination={{clickable: true}}
       slidesPerView={1}
       spaceBetween={0}
-
+      
       >
         {slides}
       </Swiper>

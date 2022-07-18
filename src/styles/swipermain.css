@@ -1,13 +1,13 @@
 .swiper {
     aspect-ratio: 2/1;
-    height: 40vh;
+    height: calc(10rem + 10vw);
     margin: 3rem auto;
 }
 
 .swiper-slide {
-    height: 20vw;
-    border-radius: 10px;
+    height: 100%;
     width: 60vw;
+    border-radius: 10px;
 }
 
 .swiper img {
@@ -59,4 +59,11 @@
     padding: 0.5rem;
     border-radius: 10px;
     text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .swiper {
+        height: auto;
+        margin: 3rem auto;
+    }
 }
