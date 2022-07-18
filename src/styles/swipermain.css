@@ -6,7 +6,7 @@
 
 .swiper-wrapper {
     box-sizing: border-box;
-    padding-bottom: 2rem ;
+    padding-bottom: 2.5rem ;
 }
 
 .swiper-slide {
@@ -27,7 +27,7 @@
     position: absolute;
     text-shadow: 2px 2px 2px black;
     transform: translate(-50%, -50%);
-    bottom: 2%;
+    bottom: -40px;
     left: 50%;
 }
 
@@ -40,20 +40,24 @@
     font-weight: 600;
     width: 5rem;
     height: 2rem;
-    background-color: rgba(0, 139, 139, 1);
+    background-color: rgb(1, 198, 198);
     border: 3px solid black;
     padding: 0.25rem 0;
     border-radius: 10px;
     text-decoration: none;
-    bottom: -6%;
+    bottom: 1%;
 }
 
 .code-link {
-    left: 5%;
+    left: 50px;
 }
 
 .website-link {
-    right: 5%;
+    right: 50px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: white;
 }
 
 @media (max-width: 800px) {
