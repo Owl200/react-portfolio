@@ -32,9 +32,11 @@ function App() {
           <li></li>
         </ul>
       </div >
-      {section === 'about' && <About/>}
-      {section === 'projects' && <SwiperMain/>}
-      {section === 'contact' && <Contact/>}
+      <section className='main-section'>
+        {section === 'about' && <About/>}
+        {section === 'projects' && <SwiperMain/>}
+        {section === 'contact' && <Contact/>}
+      </section>
       <nav>
         <Menu section={setSection} />
       </nav>

@@ -31,12 +31,8 @@
     }
 }
 
-@media (max-width: 900px) {
-    .about__div {
-        flex-direction: column;
-    }
-
+@media (max-width: 400px) {
     .about__div > p {
-        width: 90vw;
+        font-size: 0.8rem;
     }
 }

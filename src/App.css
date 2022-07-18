@@ -23,6 +23,10 @@ body{
   overflow: hidden;
 }
 
+.main-section {
+  margin-top: 3rem;
+}
+
 nav {
   position: absolute;
   bottom: 5vh;

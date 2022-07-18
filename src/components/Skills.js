@@ -18,10 +18,10 @@ const Skills = () => {
 
   return (
     <motion.div  className='skills'>
-        <motion.div animate={{x: 0, opacity: 1, zIndex: 10}} transition={{delay: 0.00}} initial={{x: 50, y: 0, opacity: 0}} className='skills__title'>
+        {/* <motion.div animate={{x: 0, opacity: 1, zIndex: 10}} transition={{delay: 0.00}} initial={{x: 50, y: 0, opacity: 0}} className='skills__title'>
           <p>Skills:</p>
           
-        </motion.div>
+        </motion.div> */}
         <motion.div whileHover={{scale: 1.5, rotate: 0, zIndex: 100}} animate={{x: 0, opacity: 1, zIndex: 1}} transition={{delay: 0.05}} initial={{x: 50, y: 0, opacity: 0, rotate: 45}} className='skills__div'>
           <p>HTML5</p>
           <img src={html} alt='html' />

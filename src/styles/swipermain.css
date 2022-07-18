@@ -1,7 +1,12 @@
 .swiper {
     aspect-ratio: 2/1;
-    height: calc(10rem + 10vw);
+    height: calc(20rem + 10vw);
     margin: 3rem auto;
+}
+
+.swiper-wrapper {
+    box-sizing: border-box;
+    padding-bottom: 2rem ;
 }
 
 .swiper-slide {
@@ -20,45 +25,35 @@
     color: white;
     font-weight: 600;
     position: absolute;
+    text-shadow: 2px 2px 2px black;
     transform: translate(-50%, -50%);
     bottom: 2%;
     left: 50%;
 }
 
-.code-link {
+.code-link, .website-link {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 0%;
-    left: 10%;
     color: white;
     font-weight: 600;
     width: 5rem;
     height: 2rem;
-    background-color: darkcyan;
+    background-color: rgba(0, 139, 139, 1);
     border: 3px solid black;
-    padding: 0.5rem;
+    padding: 0.25rem 0;
     border-radius: 10px;
     text-decoration: none;
+    bottom: -6%;
+}
+
+.code-link {
+    left: 5%;
 }
 
 .website-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 0%;
-    right: 10%;
-    color: white;
-    font-weight: 600;
-    width: 5rem;
-    height: 2rem;
-    background-color: darkcyan;
-    border: 3px solid black;
-    padding: 0.5rem;
-    border-radius: 10px;
-    text-decoration: none;
+    right: 5%;
 }
 
 @media (max-width: 800px) {

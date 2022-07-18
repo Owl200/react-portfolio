@@ -28,6 +28,7 @@
 }
 
 .skills__div > p {
+    color: white;
     position: absolute;
     font-size: 0.5rem;
     height: 100%;
