@@ -3,8 +3,9 @@
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   position: relative;
-  min-height: inherit;
+  min-height: 100vh;
 }
 
 
@@ -23,11 +24,8 @@
   margin-top: 3rem;
 }
 
-nav {
-  /* position: absolute;
-  bottom: 5vh;
-  left: 50%;
-  transform: translateX(-50%); */
+section {
+  overflow: hidden;
 }
 
 
