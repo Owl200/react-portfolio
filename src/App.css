@@ -1,16 +1,11 @@
-*{
-  margin: 0px;
-  padding: 0px;
-}
-
-body{
-  font-family: 'Exo', sans-serif;
-}
-
 .App {
   text-align: center;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
+
 
 .App-header {
   margin-top: 3vh;
@@ -28,10 +23,10 @@ body{
 }
 
 nav {
-  position: absolute;
+  /* position: absolute;
   bottom: 5vh;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); */
 }
 
 
@@ -40,10 +35,12 @@ nav {
   background: #4e54c8;  
   background: linear-gradient(to right, #000000, #02c4ff);  
   width: 100%;
-  height:100vh;
+  min-height:100vh;
+  height: 100%;
   position: absolute;
   top: 0;
   z-index: -9999;
+  padding-bottom: 1rem;
 }
 
 .circles{
