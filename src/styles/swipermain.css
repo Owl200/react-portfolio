@@ -21,14 +21,14 @@
     object-fit: contain;
 }
 
-.swiper p {
+.projects-name {
     color: white;
     font-weight: 600;
     position: absolute;
     text-shadow: 2px 2px 2px black;
     transform: translate(-50%, -50%);
-    bottom: -40px;
     left: 50%;
+    bottom: -40px;
 }
 
 .code-link, .website-link {
@@ -64,5 +64,14 @@
     .swiper {
         height: auto;
         margin: 3rem auto;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .code-link, .website-link {
+        padding: 0;
+        border: 2px solid black;
+        width: 3rem;
     }
 }

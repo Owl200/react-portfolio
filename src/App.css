@@ -17,17 +17,8 @@
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
-  overflow: hidden;
-}
 
-.main-section {
-  margin-top: 3rem;
 }
-
-section {
-  overflow: hidden;
-}
-
 
 
 .area{
@@ -159,5 +150,11 @@ section {
 @media (max-width: 700px) {
   nav {
     bottom: 0vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .App {
+    font-size: 0.7rem;
   }
 }

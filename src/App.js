@@ -1,13 +1,11 @@
 import './App.css';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-// import Skills from './components/Skills';
 import Title from './components/Title';
 import Menu from './components/Menu'
 import About from './components/About';
 import Projects from './components/Projects'
 import Contact from './components/Contact'
-import SwiperMain from './components/SwiperMain';
 
 function App() {
   const [section, setSection] = useState('about');
@@ -34,7 +32,7 @@ function App() {
       </div >
       <section className='main-section'>
         {section === 'about' && <About/>}
-        {section === 'projects' && <SwiperMain/>}
+        {section === 'projects' && <Projects/>}
         {section === 'contact' && <Contact/>}
       </section>
       <nav>

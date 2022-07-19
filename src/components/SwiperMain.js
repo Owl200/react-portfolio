@@ -30,7 +30,7 @@ const SwiperMain = () => {
     slides.push(
       <SwiperSlide key={`slide-${i}`} className={`swiper-${i}`}>
         <img src={images[i]} alt={`project-${i}`} />
-        <p>{titles[i]}</p>
+        <p className='projects-name'>{titles[i]}</p>
         <a href={code[i]} target='_blank' rel='noreferrer' className='code-link'>Code</a>
         <a href={website[i]} target='_blank' rel='noreferrer' className='website-link'>Website</a>
       </SwiperSlide>

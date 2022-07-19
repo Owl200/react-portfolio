@@ -15,5 +15,6 @@ html, body, #root {
 
 body{
   font-family: 'Exo', sans-serif;
+  overflow-x: initial;
 }
 
